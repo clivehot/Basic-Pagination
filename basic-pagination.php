@@ -43,7 +43,7 @@ for( $page_link_number=1; $page_link_number<=$number_of_pages;$page_link_number+
      if($page_link_number == $page ) {
                                   echo "<span id='currentpage'>$page_link_number</span>";
      } else {
-                echo '<a refsearch-ng1.php?page='.$page.'&search='.$searchq.'&subcategory='.$getsubcategory.'&lat='.$latitudeFrom.'&long='.$longitudeFrom.' ">'.$page_link_number.'</a>';
+                echo '<a refsearch-ng1.php?page='.$page_link_number.'&search='.$searchq.'&subcategory='.$getsubcategory.'&lat='.$latitudeFrom.'&long='.$longitudeFrom.' ">'.$page_link_number.'</a>';
      }
 }
 
