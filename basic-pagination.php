@@ -3,6 +3,7 @@
    When a user clicks on a link the link gets the page number from the URL and the page number determines 
    what gets shown on the page by using  $start_dispaly which is then used in a SELECT sataement with the LIMIT command.
    The code below is the correct order of setting values.
+   You can also do a if statement to first check if there are rows available
 */
 
 
